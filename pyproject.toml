@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "qa_quru_3_20_mobile"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10.0"
 Appium-Python-Client = "^2.6.1"
 selene = {version = "2.0.0-beta.8", allow-prereleases = true}
 pytest = "^7.1.3"
